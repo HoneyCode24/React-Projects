@@ -1,0 +1,61 @@
+.trending-container{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    padding: 50px 10%;
+    
+}
+.trending-container h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.movies-card{
+    align-items: center;
+    width: 90%;
+    /* height: ; */
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    margin-top: 50px;
+    padding: 0px 20px ;
+}
+.movies-card::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container button{
+    height: 120px;
+    width: 30px;
+    align-items: center;
+    background: rgba(31, 31, 31, 0.596); 
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.movie-card-item{
+    position: relative;
+}
+.movie-card-item img{
+    border-radius: 10px;
+    
+}
+.movie-card-item p{
+    position: absolute;
+    left: -20px;
+    bottom: 10px;
+    color: black;
+    font-size: 100px;
+    text-shadow: 0 0 3px white;
+}
